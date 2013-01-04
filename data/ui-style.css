@@ -1,0 +1,74 @@
+h1 {
+  	background: none repeat scroll 0 0 #E0E0E0;
+    border: 1px solid #999999;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    font-size: 22px;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+ul.selector li:hover{
+	background:#ADD8FF;
+}
+
+ul.selector li {
+    background: none repeat scroll 0 0 #E0EFFD;
+    border: 1px solid #A0A0A0;
+    border-radius: 6px 6px 6px 6px;
+    display: block;
+    margin-bottom: 6px;
+    padding: 6px;
+    cursor:pointer;
+}
+
+ul.selector li.disabled {
+	color:#999999; 
+	background-color: #E0E0E0;
+	cursor:default;
+}
+
+ul.selector {
+    list-style: none outside none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.msgBox {
+	margin: 10px 5px 0px 5px;
+	padding:3px;
+	font-weight:bold;
+	color:red;
+	border: solid 1px red;
+	border-radius: 6px 6px 6px 6px;
+	background-color: #ffffcc;
+	text-align:center;
+}
+
+div.applied {
+	color:black;
+	border-color:#999999;
+}
+
+div#progress {
+	color:#999999;
+	margin: 10px 5px 0px 5px;
+	font-weight:bold;
+	border: solid 1px #999999;
+	border-radius: 6px 6px 6px 6px;
+	background-color: white;
+}
+div#bar {
+	background-color: #99ffcc;
+	overflow: visible;
+	text-align:center;
+	border-radius: 6px 6px 6px 6px;
+	width:0%;
+}
+div#bar div {
+	width:250px;
+	padding:3px;
+}
+#done {
+	display:none;
+}
